@@ -3,51 +3,112 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>FABA</title>
   </head>
   <body>
-    <div id="intro">
-      <p>Develop as an apprentice, in your own way!</p>
-      <div id="buttons">
-        <a id="login" href="/auth/google">Login</a>
-        <a id="signup" href="/auth/google">Sign Up</a>
+    <div class="content">
+      <div id="intro">
+        <p>Develop as an apprentice, in your own way!</p>
+        <div id="buttons">
+          <a id="login" href="/auth/google">Login</a>
+          <a id="signup" href="/auth/google">Sign Up</a>
+        </div>
       </div>
-    </div>
-    <div class="page_summary">
-      <div class="image">
-        <img
-          id="laptop_image"
-          src="/images/laptop.png"
-          alt="Laptop With Code"
-        />
+      <div class="page_summary">
+        <div class="image">
+          <img
+            id="laptop_image"
+            src="/images/laptop.png"
+            alt="Laptop With Code"
+          />
+        </div>
+        <p class="main_header">
+          Everything you need to become a successful Apprentice
+        </p>
+        <p class="headers">
+          Challenge yourself with quizzes and find useful resources that are
+          tailored to you!
+        </p>
       </div>
-      <p class="main_header">
-        Everything you need to become a successful Apprentice
-      </p>
-      <p class="headers">
-        Challenge yourself with quizzes and find useful resources that are
-        tailored to you!
-      </p>
-    </div>
-    <div class="display">
+      <div class="display">
+        <div class="row">
+          <div class="column">
+            <h4>What?</h4>
+            <p>
+              For Apprentices By Apprentices... We want to allow users to share
+              resources that were helpful to them, and also have the freedom to
+              share their own work and knowledge to gain credibility or to
+              simply help others.
+            </p>
+          </div>
+          <div class="column">
+            <h4>Why?</h4>
+            <p>
+              We aspire to share our knowledge and experience to upcoming
+              apprentices to ensure they have the same or even better experience
+              that we had.
+            </p>
+          </div>
+          <div class="column">
+            <img
+              id="collab_img"
+              src="/images/graphic.png"
+              alt="Collaboration"
+            />
+          </div>
+        </div>
+      </div>
+      <h3 class="connect">Meet The Team</h3>
       <div class="row">
         <div class="column">
-          <h4>What?</h4>
-          <p>For Apprentices By Apprentices... We want to allow users to share
-            resources that were helpful to them, and also have the freedom to
-            share their own work and knowledge to gain credibility or to simply
-            help others.</p>
+          <div class="card">
+            <img src="/images/josh.jpg" alt="Josh" style="width:100%" />
+            <div class="container">
+              <h4>Josh Paige</h4>
+              <p class="title">Amazon SDE Apprentice</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="/images/nebiu.jpg" alt="Nebiu" style="width:100%" />
+            <div class="container">
+              <h4>Nebiu Tadele</h4>
+              <p class="title">Amazon SDE Apprentice</p>
+            </div>
+          </div>
         </div>
         <div class="column">
-          <h4>Why?</h4>
-          <p>We aspire to share our knowledge and experience to upcoming
-            apprentices to ensure they have the same or even better experience
-            that we had.</p>
+          <div class="card">
+            <img src="/images/vernon.jpg" alt="Vernon" style="width:100%" />
+            <div class="container">
+              <h4>Vernon Stephens</h4>
+              <p class="title">Amazon SDE Apprentice</p>
+            </div>
+          </div>
         </div>
+
         <div class="column">
-          <h4>Column 3</h4>
-          <p>Some text..</p>
+          <div class="card">
+            <img src="/images/david.jpg" alt="David" style="width:100%" />
+            <div class="container">
+              <h4>David Ledesma</h4>
+              <p class="title">Amazon SDE Apprentice</p>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="find">
+        <h3>Learn It All</h3>
+      </div>
+      <div class="connect">
+        <h3>Connect With Previous Apprentices</h3>
       </div>
     </div>
   </body>
