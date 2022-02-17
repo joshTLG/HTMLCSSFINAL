@@ -19,4 +19,9 @@ router.get('/dashboard', ensureAuth, (req, res) => {
     
 })
 
+router.get('/quiz', ensureAuth, (req, res) => {
+    console.log(req.user)
+    res.render('quiz', {layout: "quizes"})
+    
+})
 module.exports = router
