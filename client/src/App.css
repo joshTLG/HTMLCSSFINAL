@@ -738,10 +738,6 @@ body {
   margin: 30px;
 }
 
-.content {
-  border: solid;
-}
-
 .team {
   display: flex;
   justify-content: center;
