@@ -11,7 +11,7 @@ const Navbar = ({ auth: { isAuthenticated }, logout }) => {
         <Link to="/profiles">Apprentices</Link>
       </li>
       <li>
-      <a href="https://blackxican93.github.io/FABA/">Take a Quiz</a>
+      <a href="https://nebiutadele.github.io/FABA-Quiz/">Take a Quiz</a>
       </li>
       <li>
         <Link to="/posts">Posts</Link>
