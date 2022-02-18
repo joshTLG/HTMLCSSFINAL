@@ -187,6 +187,7 @@ router.put(
     const newExp = { 
         title,
         company,
+        location,
         from,
         to,
         current,
