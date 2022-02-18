@@ -252,7 +252,7 @@ router.put(
     const {
       school,
       degree,
-      fieldofstudyion,
+      fieldofstudy,
       from,
       to,
       current,
